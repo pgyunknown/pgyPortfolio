@@ -268,7 +268,7 @@ export default function App() {
 
                 <div className="flex flex-col sm:flex-row items-center gap-4 mb-8">
                   <a
-                    href={`${import.meta.env.BASE_URL}Gokul_Yadav_Resume.pdf`}
+                    href="/pgyPortfolio/Gokul_Yadav_Resume.pdf"
                     download="Gokul_Yadav_Resume.pdf"
                     className="flex items-center gap-2 font-bold py-3 px-6 rounded-lg transition-all duration-300 hover:scale-105 hover:shadow-lg"
                     style={{
@@ -296,6 +296,15 @@ export default function App() {
                       target="_blank"
                     >
                       <Linkedin style={{ color: currentColors.primary }} />
+                    </a>
+
+                    <a
+                      href="mailto:gokulyadavdev@gmail.com"
+                      className="p-3 rounded-full transition-all duration-300 hover:scale-110 shadow-md"
+                      style={{ backgroundColor: currentColors.accent }}
+                      target="_blank"
+                    >
+                      <Mail style={{ color: currentColors.primary }} />
                     </a>
 
                     <a
