@@ -268,8 +268,8 @@ export default function App() {
 
                 <div className="flex flex-col sm:flex-row items-center gap-4 mb-8">
                   <a
-                    href="./"
-                    download="P-Gokul-Yadav-Resume.pdf"
+                    href="/Gokul_Yadav_Resume.pdf"
+                    download="Gokul_Yadav_Resume.pdf"
                     className="flex items-center gap-2 font-bold py-3 px-6 rounded-lg transition-all duration-300 hover:scale-105 hover:shadow-lg"
                     style={{
                       backgroundColor: currentColors.primary,
@@ -279,6 +279,7 @@ export default function App() {
                     <Download size={20} />
                     Download Resume
                   </a>
+
                   <div className="flex space-x-4">
                     <a
                       href="https://github.com/pgyunknown"
